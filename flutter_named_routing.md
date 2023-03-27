@@ -67,7 +67,6 @@ class DetailScreen extends StatelessWidget {
 ```
 
 
-
 Ushbu misolda biz `'/details'` nomli marshrutga uzatilgan `arguments` parametriga kiramiz va ularni `DetailScreen` vidjetida ko'rsatish uchun `name` va `age` qiymatlarini chiqaramiz.
 
 ## Hulosa
