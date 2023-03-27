@@ -24,12 +24,12 @@ Ushbu misolda biz ikkita nomlangan marshrutni aniqladik: `'/'` va `/details'`. F
 Nomlangan marshrutga oʻtish uchun biz `Navigator.pushNamed()` usulidan foydalanamiz. Mana bir misol:
 
 ```dart
-`Navigator.pushNamed(context, '/details');
+Navigator.pushNamed(context, '/details');
 ``` 
 
 Ushbu misolda biz `/details` nomli marshrutga o'tmoqdamiz. Shuningdek, biz `arguments` parametri yordamida ma'lumotlarni nomlangan marshrutga o'tkazishimiz mumkin:
 ```dart
-`Navigator.pushNamed(
+Navigator.pushNamed(
   context, 
   '/details', 
   arguments: {'name': 'Usmoxan', 'age': 20},
